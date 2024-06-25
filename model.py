@@ -1,8 +1,4 @@
-import datetime
-
 from faker import Faker
-from sqlalchemy import Column, Integer, String, Float, DateTime
-from sqlalchemy import create_engine
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 fake = Faker()
