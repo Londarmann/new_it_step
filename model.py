@@ -18,6 +18,7 @@ engine = create_engine(f"postgresql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}
 
 Base = declarative_base()
 
-"test info"
-"ajsndajnsdkasd"
-"rame"
+
+
+
+class User(Base):

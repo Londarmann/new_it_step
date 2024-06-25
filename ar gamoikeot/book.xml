@@ -1,0 +1,15 @@
+<books>
+    <book>
+        <title>Book 1 Title</title>
+        <author>Author 1</author>
+        <genre>Fiction</genre>
+        <price>20.00</price>
+    </book>
+
+    <book>
+        <title>Book 2 Title</title>
+        <author>Author 2</author>
+        <genre>Non-fiction</genre>
+        <price>15.00</price>
+    </book>
+</books>

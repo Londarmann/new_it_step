@@ -1,0 +1,66 @@
+{
+  "active_students": [
+    {
+      "name": "Roberto Mcmahon MD",
+      "email": "vickidominguez@example.org",
+      "address": "0411 Wolfe Lodge\nMortonport, UT 77741",
+      "active": true
+    },
+    {
+      "name": "Jean Hardy",
+      "email": "smithpatricia@example.org",
+      "address": "28297 Jones Curve Apt. 294\nBarbarafort, VA 54501",
+      "active": true
+    },
+    {
+      "name": "Richard Bennett",
+      "email": "christy97@example.org",
+      "address": "12181 Angela Plains\nStevensmouth, AZ 74718",
+      "active": true
+    },
+    {
+      "name": "Margaret Davis",
+      "email": "david12@example.net",
+      "address": "935 Alexa Route\nEast Candice, KY 29011",
+      "active": true
+    },
+    {
+      "name": "Robert Skinner DVM",
+      "email": "angelica31@example.org",
+      "address": "1706 Williams Parks Suite 185\nMurrayborough, WY 19093",
+      "active": true
+    }
+  ],
+  "inactive_students": [
+    {
+      "name": "Matthew Morris",
+      "email": "kathrynmcconnell@example.net",
+      "address": "54300 Cline Overpass\nBrookefort, PR 49405",
+      "active": false
+    },
+    {
+      "name": "Jessica Stephens",
+      "email": "smithroger@example.net",
+      "address": "5083 Woods Hills\nNorth Robertburgh, CO 33695",
+      "active": false
+    },
+    {
+      "name": "Sonya Morgan",
+      "email": "brooksaustin@example.org",
+      "address": "8258 Dawn Junction Apt. 837\nPort Michael, LA 15292",
+      "active": false
+    },
+    {
+      "name": "Keith Hogan",
+      "email": "powersmichael@example.com",
+      "address": "677 Carlson Fields\nColleenhaven, FL 48685",
+      "active": false
+    },
+    {
+      "name": "Carl King",
+      "email": "joe84@example.net",
+      "address": "9073 Cardenas Stream\nJessicaton, PR 58564",
+      "active": false
+    }
+  ]
+}
