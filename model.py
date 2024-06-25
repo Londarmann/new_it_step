@@ -1,4 +1,3 @@
-from faker import Faker
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 fake = Faker()
