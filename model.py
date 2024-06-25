@@ -18,35 +18,4 @@ engine = create_engine(f"postgresql://{USER}:{PASSWORD}@{HOST}:{PORT}/{DATABASE}
 
 Base = declarative_base()
 
-
-class Country(Base):
-    __tablename__ = "Country"
-
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    name = Column(String(30))
-
-
-class City(Base):
-    __tablename__ = "cities"
-
-    cityid = Column(Integer, primary_key=True, autoincrement=True)
-    cityname = Column(String(15))
-
-
-
-class Customers(Base):
-    __tablename__ = "customers"
-    custumersid = Column(Integer, primary_key=True, autoincrement=True)
-    idnumber = Column(String(15))
-    last_name = Column(String(20))
-    first_name = Column(String(30))
-    cityid = Column(Integer, foreign_key="cities.cityid")
-    income = Column(Float)
-    create_date = Column(DateTime, default=datetime.date)
-    update_date = Column(DateTime, default=datetime.date)
-
-
-Base.metadata.create_all(engine)
-
-Session = sessionmaker(bind=engine)
-session = Session()
+"test info"
